@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+#miama-font{
+    font-family: 'Miama', sans-serif;
+}
+
+/* shared related styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+body > header ,footer{
+    max-width: 75%;
+    margin: 0 auto;
+}
+main > section{
+    max-width: 73.6%;
+    margin: 0 auto;
+}
+.specific-title{
+    font-size: 3rem;
+    color: white;
+}
+.specific-desc{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+}
+.pri-btn{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+    padding: 16px 46.5px;
+    background-color:rgba(230, 83, 60, 1) ;
+    border-radius: 42px;
+    border-style: none;
+    margin-top: 30px;
+}
+.secondary-btn{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 42px;
+    margin-top: 30px;
+}
+
+
+/* navbar related style */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+    justify-items: center;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+}
+.nav-items > .nav-link,a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+}
+.nav-items{
+    display: flex;
+    gap: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px 4px;
+    border-radius: 39px;
+}
+#special-link{
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 46px;
+    padding: 8px 20px;
+    
+}
+
+
+
+/* header details related style */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 87px;
+}
+/* .h-details-container{
+    width: 599px;
+    margin-top: 96px;
+    margin-bottom: 78px;
+} */
+.h-title{
+    font-size: 4.875rem;
+    color: white;
+    margin-top: 99px;
+}
+.h-desc{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 28px;
+}
+.h-image-container{
+    margin-top: 32px;
+    position: relative;
+}
+.h-image-container > img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.position1-container{
+    width: 193px;
+    height: 98px;
+    padding: 16px ;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 125px;
+    right: -74px;
+}
+.position1-title{
+    font-size: 2.5rem;
+    color: white;
+}
+.position1-desc{
+    font-size: 0.8123rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+
+
+
+
+.position2-container{
+    width: 206px;
+    height: 96px;
+    padding: 16px ;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    bottom: 63px;
+    left: -113px;
+}
+.position2-title{
+    font-size: 1.5rem;
+    color: white;
+}
+.position2-desc{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+
+
+
+
+/* habit section related style  */
+.change-habit{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.habit-examples-container{
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 40px;
+}
+.example > img{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 100%;
+    
+}
+.example-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+}
+
+
+
+ /* run and extra related section style  */
+
+.run-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+    gap: 165px;
+}
+.run-image{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 18px;
+}
+.run-container{
+    max-width: 40.8%;
+    padding: 41px 50px;
+}
