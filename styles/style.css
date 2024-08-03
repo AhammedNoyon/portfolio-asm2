@@ -10,7 +10,7 @@
 
 @import url('https://fonts.cdnfonts.com/css/miama');
 
-#miama-font{
+#special-font{
     font-family: 'Miama', sans-serif;
 }
 
@@ -60,6 +60,9 @@ main > section{
     padding: 16px 48px;
     border-radius: 42px;
     margin-top: 30px;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 1);
+
 }
 
 
@@ -229,6 +232,97 @@ main > section{
     max-width: 40.8%;
     padding: 41px 50px;
 }
+
+
+
+
+
+/* Bmi related section style */
+.bmi-container{
+    width: 36.3%;
+    margin: 0 auto;
+    margin-top: 89px;
+    margin-bottom: 89px;
+    justify-content: center;
+    align-items: center;
+
+}
+/* challenge part related style */
+.special-section{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1);
+}
+.challenge-part-container{
+    max-width: 73.6%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.calculate-container{
+    padding: 50px 0;
+}
+.calculate-title{
+    font-size: 1.75rem;
+    color: white;
+    margin-bottom: 52px;
+}
+.table-tile{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+.table-container ,.table-tile,.table-data{
+    /* border-radius: 8px; */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 15px 111px 14px 18px;
+}
+
+.input-container{
+    /* max-width: 54.4%; */
+    /* margin: 0 auto; */
+    margin: 34px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+}
+input{
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 13px ;
+    border-style: none;
+    border-radius: 8px;
+}
+select,#option{
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 13px ;
+    border-style: none;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
