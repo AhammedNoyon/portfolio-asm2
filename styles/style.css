@@ -229,3 +229,43 @@ main > section{
     max-width: 40.8%;
     padding: 41px 50px;
 }
+
+
+
+
+/* meet our team related section style  */
+
+.meet-team{
+    margin-top: 89px;
+    /* text-align: center; */
+}
+.meet-details-container{
+    text-align: center;
+}
+
+.member-title{
+    font-size: 1.25rem;
+    color: white;
+}
+.team-member-list{
+    position: relative;
+}
+.member-details-container{
+    position: absolute;
+    bottom: 16px;
+    left: 19px;
+}
+.team-member{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    border-radius: 18px;
+}
+.team-member-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 18px;
+    grid-gap: 20px;
+}
