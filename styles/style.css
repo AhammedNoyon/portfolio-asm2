@@ -25,7 +25,7 @@ body{
     margin: 0 auto;
     background-color: black;
 }
-body > header ,footer{
+body > header{
     max-width: 75%;
     margin: 0 auto;
 }
@@ -268,4 +268,61 @@ main > section{
     padding: 20px;
     border-radius: 18px;
     grid-gap: 20px;
+}
+
+
+/* footer related style */
+footer{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 89px;
+    padding: 68px 0;
+}
+.fit-title{
+    font-size: 4.375rem;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+}
+.get-started{
+    gap: 152px;
+}
+.get-title{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+}
+.get-desc{
+    font-size: 1.44rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 39px;
+    gap: 20px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    /* align-items: center; */
+    text-align: center;
+    max-width: 75%;
+    margin: 0 auto;
+    gap: 152px;
+    color: rgba(255, 255, 255, 0.1);
+}
+.reserve-container{
+    justify-items: center;
+    /* align-items: center; */
+    text-align: center;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 89px;
+    margin-bottom: 31px;
+}
+.reserve-desc{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 36px;
 }
