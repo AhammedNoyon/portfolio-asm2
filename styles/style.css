@@ -247,7 +247,7 @@ main > section{
     align-items: center;
 
 }
-/* challenge part related style */
+/* challenge part-1 related style */
 .special-section{
     max-width: 100%;
     margin: 0 auto;
@@ -308,8 +308,51 @@ select,#option{
 
 
 
+/* challenge part-2 section related style */
+.cln-title {
+    text-align: center;
+    margin-top: 89px;
+}
+.cln-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    border-radius: 18px;
+}
+.cln-container:hover{
+    background-color: cadetblue;
+    box-shadow: 5px 5px 6px white;
+}
+.something-new-container > img{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 18px;
+}
+.list-title{
+    text-align: center;
+    color: chocolate;
+}
+.list-desc{
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+}
+.items-container > .items{
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
 
-
+}
 
 
 
@@ -359,6 +402,7 @@ select,#option{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background-color:rgba(255, 255, 255, 0.1);
+    margin-top: 58px;
     padding: 20px;
     border-radius: 18px;
     grid-gap: 20px;
