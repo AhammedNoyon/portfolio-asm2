@@ -65,7 +65,6 @@ main > section{
 
 }
 
-
 /* navbar related style */
 .nav-container{
     display: flex;
@@ -101,19 +100,12 @@ main > section{
     
 }
 
-
-
 /* header details related style */
 .header-container{
     display: flex;
     justify-content: space-between;
     gap: 87px;
 }
-/* .h-details-container{
-    width: 599px;
-    margin-top: 96px;
-    margin-bottom: 78px;
-} */
 .h-title{
     font-size: 4.875rem;
     color: white;
@@ -133,12 +125,6 @@ main > section{
     width: 100%;
     margin: 0 auto;
 }
-
-
-
-
-
-
 .position1-container{
     width: 193px;
     height: 98px;
@@ -157,11 +143,6 @@ main > section{
     font-size: 0.8123rem;
     color: rgba(255, 255, 255, 0.65);
 }
-
-
-
-
-
 .position2-container{
     width: 206px;
     height: 96px;
@@ -181,17 +162,11 @@ main > section{
     color: rgba(255, 255, 255, 0.65);
 }
 
-
-
-
-
 /* habit section related style  */
 .change-habit{
     margin-top: 100px;
     text-align: center;
 }
-
-
 .habit-examples-container{
     margin-top: 58px;
     display: grid;
@@ -211,10 +186,7 @@ main > section{
     margin-top: 30px;
 }
 
-
-
  /* run and extra related section style  */
-
 .run-section{
     display: flex;
     justify-content: space-between;
@@ -232,10 +204,6 @@ main > section{
     max-width: 40.8%;
     padding: 41px 50px;
 }
-
-
-
-
 
 /* Bmi related section style */
 .bmi-container{
@@ -306,8 +274,6 @@ select,#option{
     border-radius: 8px;
 }
 
-
-
 /* challenge part-2 section related style */
 .cln-title {
     text-align: center;
@@ -354,24 +320,7 @@ select,#option{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* meet our team related section style  */
-
 .meet-team{
     margin-top: 89px;
     /* text-align: center; */
