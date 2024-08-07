@@ -1,0 +1,123 @@
+responsive related style
+@media screen and (max-width:576px) {
+    .nav-items{
+        display: none;
+    }
+    .pri-btn,.secondary-btn{
+        padding: 16px 41.5px;
+    }
+    .header-container{
+        flex-direction: column;
+    }
+    .h-title{
+        font-size: 2.25rem;
+        margin-top: 51px;
+    }
+    .h-desc{
+        width: 274px;
+    }
+    .run-section ,
+    .challenge-part-container ,
+    .cln-container{
+        flex-direction: column;
+        gap: 0;
+    }  
+    .list{
+        flex-direction: column;
+        padding-left: 32px;
+        gap: 0;
+    }
+    .habit-examples-container ,
+    .team-member-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-container{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: start;
+        gap: 30px;
+        text-align: start;
+        /* margin: 0; */
+    }
+    .position1-container{
+        top: 47px;
+        right: 12px;
+    }
+    .position2-container{
+        bottom: 250px;
+        left: 20px;
+        background-color: rgba(48, 48, 48, 0.54);
+    }
+    .habit-title{
+        font-size: 2rem;
+    }
+    .change-habit{
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .run-image{
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 18px;
+    }
+    .run-container{
+        max-width: 100%;
+    }
+    .run-btn{
+        padding: 16px 103px;
+    }
+    .bmi-container{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 39px;
+        margin-bottom: 32px;
+        padding-left: 20px;
+    }
+    .challenge-btn{
+        padding: 16px 70.5px;
+    }
+    .calculate-container{
+        padding: 34px 20px;
+    }
+    .cln-section-container{
+        max-width: 100%;
+        margin-top: 20px;
+        
+    }
+    .list-title {
+        font-size: 2.25rem;
+        text-align: start;
+        margin-top: 20px;
+    }
+
+
+
+    /* .team-member-list > img{
+        order: c;
+    } */
+#special-team{
+    display: none;
+}
+
+
+    .meet-team{
+        margin-top: 66px;
+    }
+    .footer-section{
+        margin-top: 66px;
+        padding: 54px 0;
+    }
+    .fit-container{
+        padding-left: 20px;
+    }
+    .get-started{
+        gap: 0;
+        padding-left: 20px;
+    }
+    .reserve-container{
+        justify-items: center;
+        text-align: start;
+
+    }
+
+}
